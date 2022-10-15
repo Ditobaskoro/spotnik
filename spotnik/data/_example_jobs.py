@@ -7,6 +7,7 @@ jobs = [
         "name": "Radio Dito",
         "description": "These are the songs Im listening to today.",
         "remove_low_energy": False,
+        "randomize_cover": True,
         "last_track_ids": ["3eWGQXWe5cDY8xNQwaXtzs"],
         "banned_artist_names": [
             "khalid",
@@ -59,6 +60,7 @@ jobs = [
     {
         "playlist_id": target_playlist_id_2,
         "name": "Radio Dito 2",
+        "randomize_cover": True,
         "description": "These are the songs I sleep to today.",
         "remove_low_energy": True,
         "last_track_ids": [],
