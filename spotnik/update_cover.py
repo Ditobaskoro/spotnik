@@ -11,7 +11,9 @@ def getImage():
     return my_string.decode('utf-8')
 
 def update_cover(spotify, job):
-    image = getImage()
-    spotify.playlist_upload_cover_image(
-        job["playlist_id"], image_b64=image
-    )
+    if job['randomize_cover']:
+        
+        image = getImage()
+        spotify.playlist_upload_cover_image(
+            job["playlist_id"], image_b64=image
+        )
