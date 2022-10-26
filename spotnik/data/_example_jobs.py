@@ -52,7 +52,6 @@ jobs = [
             "kendrick lamar",
             "kanye west",
             "Eminem",
-            "Cardi B",
             "Logic",
             "Lil Wayne",
         ],
@@ -62,7 +61,7 @@ jobs = [
         "name": "Radio Dito 2",
         "randomize_cover": True,
         "description": "These are the songs I sleep to today.",
-        "remove_low_energy": True,
+        "remove_low_energy": False,
         "last_track_ids": [],
     },
 ]
